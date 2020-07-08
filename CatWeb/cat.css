@@ -1,0 +1,711 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+/* Header Design */
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#header .phone span {
+    font-size: 20px;
+}
+
+.phone {
+    margin: 25px 170px;
+    color: white;
+}
+
+.phone i {
+    color: orange;
+}
+
+.contact {
+    display: flex;
+    padding: 30px 160px;
+}
+
+.contact i {
+    margin: 0 5px;
+    color: white;
+}
+
+
+/*menu desing*/
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 117px;
+    background-color: #ccc;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#menu h1 {
+    font-size: 40px;
+}
+
+.list {
+    display: flex;
+}
+
+.list h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.list .list2 {
+    border-bottom: 2px solid orange;
+    margin-bottom: 5px;
+}
+
+#menu div {
+    display: flex;
+    margin-left: 50px;
+}
+
+#menu div h1 {
+    margin: 10px;
+}
+
+#menu .Donate button {
+    width: 160px;
+    /*用button當作是長寬的基準*/
+    height: 48px;
+    font-size: 15px;
+    border: 2px solid orange;
+    background-color: #ccc;
+    color: orange;
+    cursor: pointer;
+}
+
+#menu .Donate button:hover {
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+}
+
+
+/*Cat Design img如果不再伺服器端就不用斜線*/
+
+#catpicture {
+    width: 100%;
+    height: 650px;
+    background-image: url(img/catpicture.jpeg);
+    background-size: cover;
+}
+
+#catpicture .words {
+    padding-top: 208px;
+    padding-left: 175px;
+}
+
+.word1 {
+    font-size: 40px;
+    color: #5B5B5B;
+    padding-bottom: 20px;
+}
+
+.word2 {
+    font-size: 70px;
+    color: #0080FF;
+    padding-bottom: 20px;
+}
+
+.words3 {
+    font-size: 20px;
+    color: #9D9D9D;
+}
+
+.word4 {
+    padding-top: 40px;
+}
+
+.word4 button {
+    font-size: 20px;
+    color: white;
+    border: 2px solid orange;
+    background-color: orange;
+    height: 67px;
+    width: 223px;
+    cursor: pointer;
+}
+
+.word4 button:hover {
+    background-color: black;
+    border: 2px solid black;
+}
+
+
+/* about */
+
+#about {
+    display: flex;
+}
+
+.aboutwords {
+    margin-right: 175px;
+}
+
+.aboutwords .about1 {
+    margin-top: 170px;
+    font-size: 50px;
+    color: #424633;
+}
+
+.aboutwords .about2 {
+    font-size: 35px;
+    color: #408edc;
+    margin-top: 20px;
+}
+
+.aboutwords .about3 {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.aboutpicture img {
+    width: 570px;
+    height: 564px;
+    margin-left: 175px;
+    margin-top: 100px;
+}
+
+.aboutbutton button {
+    margin-top: 40px;
+    font-size: 15px;
+    width: 210px;
+    height: 65px;
+    border: 2px solid orange;
+    color: White;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.aboutbutton button:hover {
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+
+/* helps design */
+
+#helps {
+    width: 100%;
+    height: 820px;
+    background-color: #FCFCFC;
+}
+
+.helpword {
+    padding-top: 105px;
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+}
+
+.helpword2 {
+    padding: 30px 0 70px 0;
+    color: #0080FF;
+    font-size: 30px;
+    text-align: center;
+}
+
+.helppictures div {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.helppicture1 {
+    margin-right: 30px;
+    height: 400px;
+    width: 370px;
+    background-image: url(img/asset\ 8.jpeg);
+}
+
+.helppicture1:hover {
+    background-color: #4F4F4F;
+}
+
+
+/*有問題*/
+
+.helppicture2 {
+    height: 400px;
+    width: 370px;
+    background-image: url(img/asset\ 9.jpeg);
+}
+
+.helppicture3 {
+    margin-left: 30px;
+    height: 400px;
+    width: 370px;
+    background-image: url(img/asset\ 10.jpeg);
+}
+
+
+/* Volunteer */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.volunteerpicture1 p {
+    font-size: 50px;
+    color: gray;
+    text-align: right;
+    padding: 100px 0 40px 0;
+}
+
+.volunteerpicture2 {
+    padding-top: 100px;
+}
+
+.volunteerpicture2 p {
+    color: gray;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.volunteerpicture2 button {
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+}
+
+
+/* upcoming event */
+
+.container .upcomingpicture {
+    width: 1179px;
+    height: 390px;
+    background-image: url(img/asset\ 11.jpeg);
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.upcomingwords p {
+    text-align: center;
+}
+
+.upcomingwords .p1 {
+    margin-top: 72px;
+    font-size: 45px;
+    color: gray;
+}
+
+.upcomingwords .p2 {
+    margin-top: 33px;
+    font-size: 50px;
+    color: blue;
+}
+
+.upcomingwords .p3 {
+    margin-top: 28px;
+    font-size: 20px;
+    color: gray;
+}
+
+.upcomingpicture .button button {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid orange;
+    background-color: orange;
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.upcomingpicture .button button:hover {
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+
+.upcomingpicture .button1 {
+    margin-left: 397px;
+    margin-right: 35px;
+}
+
+.
+/* DOG */
+
+#DOG .container {
+    height: 719px;
+    width: 1519px;
+    background-image: url(img/asset\ 13.jpeg);
+    background-attachment: fixed;
+}
+
+
+/* bar */
+
+#bar .container {
+    width: 1519px;
+    height: 20px;
+    background-color: orange;
+}
+
+#Latest {
+    height: 1500px;
+    width: 1517px;
+}
+
+.Latestwords {
+    text-align: center;
+}
+
+.Latestword1 {
+    padding-top: 105px;
+    font-size: 50px;
+    color: gray;
+}
+
+.Latestword2 {
+    color: #0080FF;
+    padding-top: 36px;
+    font-size: 30px;
+}
+
+
+/* video */
+
+#Latest iframe {
+    padding: 90px 0 0 177px;
+}
+
+.Latestpictures {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Latestpicture1 {
+    width: 566px;
+    height: 385px;
+    border: 1px solid red;
+    background-image: url(img/123.png);
+    margin-right: 15px;
+    position: relative;
+}
+
+.Latestword3 {
+    position: absolute;
+}
+
+.Latestpicture2 {
+    width: 566px;
+    height: 385px;
+    border: 1px solid red;
+    background-image: url(img/asset15.jpeg);
+    margin-left: 15px;
+}
+
+.Latestpicture1 img {
+    border-radius: 50%;
+    margin: 50px 0 0 229px;
+}
+
+.Latestpicture1 .Latestword3 {
+    margin-left: 190px;
+    font-size: 15px;
+    color: white;
+}
+
+.Latestpicture2 img {
+    border-radius: 50%;
+}
+
+
+/* number */
+
+.numbercontainer {
+    width: 1519px;
+    height: 521px;
+    background-image: url(img/asset\ 16.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*這裡是重點*/
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.numbercontainer p {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.numbercontainer .p2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* see */
+
+#Seeour {
+    height: 243px;
+    width: 1519px;
+    background-color: pink;
+}
+
+.seeourdog p {
+    font-size: 50px;
+    color: gray;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* four pictures */
+
+#four {
+    height: 326px;
+    width: 1519px;
+}
+
+.container .picture1 {
+    width: 380px;
+    height: 326px;
+    background-image: url(img/asset\ 3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*這裡是重點*/
+    background-size: cover;
+}
+
+.container .picture2 {
+    width: 380px;
+    height: 326px;
+    background-image: url(img/asset\ 4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*這裡是重點*/
+    background-size: cover;
+}
+
+.container .picture3 {
+    width: 380px;
+    height: 326px;
+    background-image: url(img/asset\ 5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*這裡是重點*/
+    background-size: cover;
+}
+
+.container .picture4 {
+    width: 380px;
+    height: 326px;
+    background-image: url(img/asset\ 6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*這裡是重點*/
+    background-size: cover;
+}
+
+
+/*final*/
+
+#final {
+    height: 471px;
+    width: 1519px;
+    background-image: url(img/asset\ 17.jpeg);
+    position: relative;
+}
+
+.finalpart {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.finalpart h1 {
+    font-size: 40px;
+    color: White;
+    margin: 5px 0 0 30px;
+}
+
+.fourcolors {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.fourcolors .aqua {
+    height: 56px;
+    width: 56px;
+    background-color: aqua;
+}
+
+.fourcolors .red {
+    height: 56px;
+    width: 56px;
+    background-color: red;
+}
+
+.fourcolors .blue {
+    height: 56px;
+    width: 56px;
+    background-color: blue;
+}
+
+.fourcolors .green {
+    height: 56px;
+    width: 56px;
+    background-color: green;
+}
+
+.paid p {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.phone {
+    text-align: center;
+}
+
+.phone a {
+    color: white;
+    text-decoration: none;
+}
+
+.address {
+    text-align: center;
+}
+
+.address i {
+    color: orange;
+}
+
+.address span {
+    color: white;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.iconphone {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: orange;
+}

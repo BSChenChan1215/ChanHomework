@@ -1,0 +1,415 @@
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td,
+                    article,
+                    aside,
+                    canvas,
+                    details,
+                    embed,
+                    figure,
+                    figcaption,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    output,
+                    ruby,
+                    section,
+                    summary,
+                    time,
+                    mark,
+                    audio,
+                    video {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        font-size: 100%;
+                        font: inherit;
+                        vertical-align: baseline;
+                        text-decoration: none;
+                        font-family: sans-serif;
+                    }
+                    
+                    .container {
+                        width: 1200px;
+                        margin: auto;
+                        /* border: 1px solid blue; */
+                    }
+                    
+                    .item {
+                        margin: 0 15px;
+                    }
+                    
+                    .area {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                    
+                    .item_groups {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .title {
+                        text-align: center;
+                    }
+                    /* .item1 {
+    border: 1px solid red;
+    } */
+                    /* .item2 {
+            border: 1px solid yellow;
+        }
+         */
+                    
+                    #header {
+                        background-color: green;
+                        height: 50px;
+                    }
+                    
+                    #header .item_groups {
+                        display: flex;
+                        height: 45px;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    #header .item1 {
+                        color: white;
+                    }
+                    
+                    #header .item2 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-content: center;
+                        margin: 0 15px;
+                        color: white;
+                        height: 50px;
+                    }
+                    
+                    #header .item2 i {
+                        margin-right: 2px;
+                    }
+                    
+                    #header .item2 .item::after {
+                        content: '|';
+                        color: white;
+                        padding-left: 15px;
+                    }
+                    /* nav */
+                    
+                    #Naturionav .item_groups .gogo::after {
+                        content: "V";
+                        color: black;
+                    }
+                    
+                    #Naturionav .item_groups {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    #Naturionav .item2 {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 480px;
+                    }
+                    /* greenleaves */
+                    
+                    #greenleaves {
+                        background-image: url(img/asset36.webp);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        /*這裡是重點*/
+                        background-size: cover;
+                        height: 800px;
+                        padding: 120px 0 160px 0;
+                        display: flex;
+                        align-items: center;
+                        border: 1px solid purple;
+                    }
+                    
+                    #greenleaves .container .item1 {
+                        font-size: 60px;
+                        color: gray;
+                        border: 1px solid red;
+                    }
+                    
+                    #greenleaves .container .item1 div {
+                        margin: 20px 0;
+                    }
+                    
+                    #greenleaves .container .item1 span {
+                        color: green;
+                    }
+                    
+                    #greenleaves .container .item1 .greenword1 {
+                        font-size: 30px;
+                    }
+                    
+                    .greenbutton button {
+                        border: 1px solid orange;
+                        background-color: orange;
+                        height: 55px;
+                        width: 162px;
+                    }
+                    
+                    .greenbutton a {
+                        color: white;
+                        font-size: 15px;
+                    }
+                    /* welcome */
+                    
+                    #welcome .title {
+                        text-align: center;
+                        font-size: 48px;
+                        color: green;
+                    }
+                    
+                    #welcome .item {
+                        height: 214px;
+                        width: 366px;
+                        margin: 57px 15px 30px 15px;
+                        text-align: center;
+                    }
+                    
+                    #welcome .item h2 {
+                        color: gray;
+                    }
+                    
+                    #welcome .item4 {
+                        background-image: url(img/asset4.webp);
+                        width: 50%;
+                        height: 360px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    
+                    #welcome .item5 {
+                        background-image: url(img/asset5.webp);
+                        width: 50%;
+                        height: 360px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    /* our products */
+                    
+                    #ourproducts .title {
+                        text-align: center;
+                        font-size: 33px;
+                        margin-top: 91px;
+                    }
+                    
+                    #ourproducts .nav {
+                        text-align: center;
+                    }
+                    
+                    #ourproducts .nav a {
+                        text-decoration: none;
+                        margin: 0 15px;
+                        color: gray;
+                    }
+                    
+                    #ourproducts .item {
+                        width: 243px;
+                        max-width: 100%;
+                        padding: 10px;
+                    }
+                    
+                    #ourproducts img {
+                        border: 0.1px solid grey;
+                    }
+                    
+                    #ourproducts .item1words {
+                        text-align: center;
+                    }
+                    /* Fruits and Vegetables */
+                    
+                    #fruits {
+                        background-image: url(img/asset37.webp);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        /*這裡是重點*/
+                        background-size: cover;
+                        height: 652px;
+                    }
+                    
+                    #fruits .item_groups {
+                        padding-top: 100px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid darkblue;
+                    }
+                    
+                    #fruits .item_groups .item1 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-self: center;
+                    }
+                    
+                    #fruits h2 {
+                        font-size: 82px;
+                    }
+                    
+                    #fruits h3 {
+                        font-size: 30px;
+                        margin-left:
+                    }
+                    /* Source */
+                    
+                    #source .item_groups {
+                        margin-top: 209px;
+                    }
+                    
+                    #source .item2 {
+                        margin-bottom: 200px;
+                    }
+                    
+                    #source h3,
+                    p {
+                        margin: 40px 0;
+                    }
+                    /* blog */
+                    
+                    #blog {
+                        background-image: url(img/asset38.webp);
+                    }
+                    
+                    #blog .container {
+                        padding-top: 150px;
+                    }
+                    
+                    #blog .item_groups {
+                        justify-content: space-between;
+                    }
+                    
+                    #blog .title {
+                        font-size: 28px;
+                    }
+                    
+                    #blog .blogwords {
+                        text-align: center;
+                    }
+                    
+                    #blog .bloga a {
+                        width: 90px;
+                        height: 20px;
+                        border: 1px solid green;
+                        background: green;
+                        color: white;
+                    }
+                    
+                    #blog p a {
+                        color: green;
+                    }
+                    /* coldcereal */
+                    
+                    #coldcereal img {
+                        border: 1px solid gray;
+                        padding: 5px;
+                    }
+                    
+                    #coldcereal .container {
+                        margin-top: 60px;
+                    }
+                    /* clients */
+                    
+                    #clients {
+                        background-image: url(img/asset39.webp);
+                        border: 1px solid red;
+                        height: 650px;
+                        position: relative;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                    }
+                    
+                    #clients .container {
+                        border: 1px solid blue;
+                        position: absolute;
+                    }
+                    /* Subscribe */
+                    
+                    #subscribe {
+                        color: green;
+                    }
+                    
+                    #subscribe .item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    /*footer*/
+                    
+                    #footer {
+                        border: 1px solid blue;
+                        background-image: url(img/asset41.webp);
+                    }
+                    
+                    #footer .container {
+                        border: 1px solid red;
+                        padding-top: 155px;
+                    }
+                    
+                    #footer .item4 {
+                        margin-bottom: 58px;
+                    }

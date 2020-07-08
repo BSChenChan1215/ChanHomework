@@ -1,0 +1,31 @@
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.item {
+    margin: 0 15px;
+}
+
+.item_groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+
+/* 1.advantages */
+
+#advantages .title::after {
+    content: "_____";
+    height: .5px;
+    width: 10px;
+    background-color: black;
+}
+
+.item {}
